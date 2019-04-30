@@ -1,11 +1,19 @@
 @font-face {
-font-family: 'YoungSerif';
-src: "fonts/YoungSerif-Regular.ttf"
+    font-family: 'youngserifregular';
+    src: url('fonts/youngserif-regular-webfont.woff2') format('woff2'),
+         url('fonts/youngserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-font-family: 'Archivo';
-src: "fonts/Archivo-Regular.ttf"
+    font-family: 'archivoregular';
+    src: url('fonts/archivo-regular-webfont.woff2') format('woff2'),
+         url('fonts/archivo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 html {
@@ -38,7 +46,7 @@ img {
 
 h1 {
     text-align: center;
-    font-family: 'YoungSerif', serif;
+    font-family: 'youngserifregular', serif;
     color: white;
     font-size: 4vw;
     letter-spacing: 0.02em;
@@ -57,7 +65,7 @@ table {
     margin: 0;
     top: 0;
     bottom: 0;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'archivoregular', sans-serif;
     color: #000000;
 }
 
@@ -87,7 +95,7 @@ table {
 .link {
     text-decoration: none;
     text-align: left;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'archivoregular', sans-serif;
     color: white;
     font-size: 2vw;
     letter-spacing: 0.05em;
