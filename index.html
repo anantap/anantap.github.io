@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="gridsys.css">
+<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+<title>Ananta Mulyono</title>
+    
+<script type="text/javascript">
+    
+var texts = ["Digital Designer", "Terrible Cyclist", "Internet Explorer", "Saté Gourmand", "Capricorn Sun"];
+var count = 0;
+function changeText() {
+    $("#example").text(texts[count]);
+    count < 4 ? count++ : count = 0;
+}
+setInterval(changeText, 500);    
+</script>
+    
+<script>
+    $(window).scroll(function(){
+    $(".list").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+</script>
+    
+</head>
+<body>
+
+<div class="top">    
+<div class="corner">
+            <h1>Ananta<br />
+                Mulyono</h1>
+</div>
+<div class="list">
+    <span id="example" class="link">is a</span>
+</div>
+</div>
+    
+<div class="bottom">
+    <table class="cv">
+    <tr>
+        <td class="years"><sup>2019 &mdash; current</sup></td>
+        <td class="occup">Digital Designer at <a class="textlink" href="http://www.wearejust.com" target="_blank">Just</a>.</td>
+    </tr>
+    <tr>
+        <td class="years"><sup>2017 &mdash; 2019</sup></td>
+        <td class="occup">Digital Designer at <a class="textlink" href="http://www.siloagency.com" target="_blank">SILO</a>.</td>
+    </tr>
+    <tr>
+        <td class="years"><sup>2015 &mdash; 2016</sup></td>
+        <td class="occup">Interaction Design Intern at <a class="textlink" href="http://www.vruchtvlees.com" target="_blank">Vruchtvlees</a>.</td>
+    </tr>
+     <tr>
+        <td class="years"><sup>2012 &mdash; 2017</sup></td>
+        <td class="occup">BSc Communication &amp; Multimedia Design.</td>
+    </tr>
+        </table>
+    <div class="contact0">
+        <span class="textlink">pielemuis0</span>
+    </div>
+    <div class="bottomlink contact1">
+        <a class="link" href="mailto:info@ananta.pm">E-mail</a>
+    </div>
+    <div class="bottomlink contact2">
+        <a class="link" href="http://www.instagram.com/ananta.pm"  target="_blank">Instagram</a>
+    </div>
+    <div class="bottomlink contact3">
+        <a class="link" href="http://www.linkedin.com/in/anantadotpm"  target="_blank">LinkedIn.</a>
+    </div>
+</div>
+</body>
+</html>
+<!--
+
+<a href="mailto:info@ananta.pm">E-mail.</a><br />
+            <a href="http://www.instagram.com/ananta.pm"  target="_blank">Instagram.</a><br />
+            <a href="http://www.linkedin.com/in/anantadotpm"  target="_blank">LinkedIn.</a>-->
