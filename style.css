@@ -60,11 +60,11 @@ table {
 .textlink {
     text-decoration: underline;
     color: black;
-    -webkit-transition: color .2s ease-in-out;
-        -moz-transition: color .2s ease-in-out;
-        -ms-transition: color .2s ease-in-out;
-        -o-transition: color .2s ease-in-out;
-        transition: color .2s ease-in-out;
+    -webkit-transition: color .1s ease-in-out;
+        -moz-transition: color .1s ease-in-out;
+        -ms-transition: color .1s ease-in-out;
+        -o-transition: color .1s ease-in-out;
+        transition: color .1s ease-in-out;
 }
 
 .link {
