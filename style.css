@@ -8,21 +8,32 @@ font-family: 'Archivo';
 src: "fonts/Archivo-Regular.ttf"
 }
 
+html {
+    -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
 #bg { 
     position: fixed;
     left: 0;
     top: 0;
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     z-index: -10;
-    overflow-x: hidden;
+    overflow: hidden;
+    text-align: center;
+/*
     background: url("3.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+*/
+}
+
+img {
+    height: auto;
+    width: 100vw;
 }
 
 h1 {
