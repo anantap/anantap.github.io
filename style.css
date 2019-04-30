@@ -33,8 +33,7 @@ html {
 
 img {
     height: auto;
-    width: 150vw;
-    margin-top: -40vh;
+    width: 100vw;
 }
 
 h1 {
@@ -247,6 +246,11 @@ table {
     width: 100%;
         padding: 5%;
 }
+    
+    img {
+        height: 100vh;
+        width: auto;
+    }
 
     
 }
