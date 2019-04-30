@@ -248,8 +248,7 @@ table {
 }
     
     img {
-        height: 100vh;
-        width: auto;
+        margin-left: -100vw;
     }
 
     
