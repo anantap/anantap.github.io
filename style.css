@@ -42,6 +42,7 @@ html {
 img {
     height: 130vh;
     width: auto;
+    overflow: hidden;
 }
 
 h1 {
@@ -257,6 +258,7 @@ table {
     
     img {
         margin-left: -100vw;
+        overflow: hidden;
     }
 
     
