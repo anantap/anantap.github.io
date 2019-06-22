@@ -128,12 +128,13 @@ table {
     text-align: right;
 }
 
-.occup {
-    font-size: 24px;
-    letter-spacing: 0.05em;
+.occup, .par {
+    font-size: 26px;
+    letter-spacing: 0.03em;
     line-height: 1.6;
-    padding: 2%;
+/*    padding: 2%;*/
 }
+
 
 .textlink {
     text-decoration: underline;
@@ -205,6 +206,7 @@ table {
 }
 
 .project {
+    font-family: 'archivoregular', sans-serif;
     padding: 5vw 12.5vw;
     background-color: #F8F5ED;
     text-align: left;
@@ -222,7 +224,7 @@ table {
 }
 
 .homeimg {
-    margin-top: 2vw;
+    margin-top: 6vw;
     margin-bottom: 2vw;
     width: 100%;
     height: auto;
@@ -235,14 +237,6 @@ table {
     line-height: 1.125;
     color: black;
     text-align: left;
-}
-
-
-.par {
-    font-family: 'archivoregular', sans-serif;
-    color: #000000;
-    font-size: 24px;
-    line-height: 1.6;
 }
 
 .projecttext {
