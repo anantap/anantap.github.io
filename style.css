@@ -205,7 +205,6 @@ table {
 }
 
 .project {
-    font-family: 'youngserifregular', serif;
     padding: 5vw 12.5vw;
     background-color: #F8F5ED;
     text-align: left;
@@ -240,6 +239,7 @@ table {
 
 
 .projectp {
+    font-family: 'archivoregular', sans-serif;
     color: #000000;
     font-size: 24px;
     line-height: 1.6;
