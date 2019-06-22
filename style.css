@@ -187,6 +187,49 @@ table {
     opacity: 0;
 }
 
+.project {
+    padding: 5vw 25vw;
+    background-color: #F8F5ED;
+    text-align: left;
+    display: flex;
+    width: 50vw;
+}
+
+.projectimg {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+.project_h1 {
+    font-size: 8vh;
+    line-height: 1.175;
+    color: black;
+    text-align: left;
+}
+
+.project_p {
+    text-align: left;
+    font-family: 'archivoregular', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+.projecttext {
+/*    margin-left: 25vw;*/
+/*
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+*/
+    width: 100%;
+/*    background-color: red;*/
+    position: relative;
+}
+
 .contact0 {
     position: relative;
     margin: 0 !important;
