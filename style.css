@@ -93,11 +93,27 @@ h1 {
 table {
     background-color: #F8F5ED;
     width: 100vw;
+    padding: 15vh 12.5vw;
+/*    padding-right: 12.5vw*/
+    text-align: left;
+/*
+    padding: 15vh 0;
+    padding-top: 
+*/
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'archivoregular', sans-serif;
+    color: #000000;
+}
+
+.project_overview {
+    background-color: #F8F5ED;
+    width: 100vw;
     padding-left: 12.5vw;
     padding-right: 12.5vw;
     text-align: left;
-    padding-top: 15vw;
-    padding-bottom: 15vw;
+    padding-top: 10vh;
     margin: 0;
     top: 0;
     bottom: 0;
@@ -113,8 +129,9 @@ table {
 }
 
 .occup {
-    font-size: 3vw;
+    font-size: 24px;
     letter-spacing: 0.05em;
+    line-height: 1.6;
     padding: 2%;
 }
 
@@ -133,23 +150,23 @@ table {
     text-align: left;
     font-family: 'archivoregular', sans-serif;
     color: white;
-    font-size: 2vw;
+    font-size: 30px;
     letter-spacing: 0.05em;
-    line-height: 1.4em;
+    line-height: 1.25;
     margin: auto !important; /* Important */
 }
 
 .bottomlink {
-    -webkit-transition: opacity .2s ease-in-out;
-        -moz-transition: opacity .2s ease-in-out;
-        -ms-transition: opacity .2s ease-in-out;
-        -o-transition: opacity .2s ease-in-out;
-        transition: opacity .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
 }
 
 .bottomlink:hover {
     cursor: pointer;
-    opacity: 0.9;
+    text-decoration: underline;
 }
 
 .textlink:hover {
@@ -188,11 +205,12 @@ table {
 }
 
 .project {
-    padding: 5vw 25vw;
+    font-family: 'youngserifregular', serif;
+    padding: 5vw 12.5vw;
     background-color: #F8F5ED;
     text-align: left;
     display: flex;
-    width: 50vw;
+    width: 75vw;
 }
 
 .projectimg {
@@ -204,19 +222,27 @@ table {
     display: block;
 }
 
+.homeimg {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
 .project_h1 {
-    font-size: 8vh;
-    line-height: 1.175;
+    font-size: 48px;
+    line-height: 1.125;
     color: black;
     text-align: left;
 }
 
-.project_p {
-    text-align: left;
-    font-family: 'archivoregular', sans-serif;
+
+.projectp {
     color: #000000;
-    font-size: 20px;
-    line-height: 1.75;
+    font-size: 24px;
+    line-height: 1.6;
 }
 
 .projecttext {
@@ -230,19 +256,22 @@ table {
     position: relative;
 }
 
+.invisible {
+    opacity: 0;
+}
+
 .contact0 {
-    position: relative;
     margin: 0 !important;
     padding: 0;
     bottom: 0;
 /*    left: 0;*/
-    background-color: #F8F5ED;
+    background-color: #BD3C32;
     width: 25vw;
     height: 25vw;
     text-align: center;
-    display: inline-block;
+    display: flex;
     float: left;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 .contact1 {
