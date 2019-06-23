@@ -136,7 +136,14 @@ table {
     text-align: right;
 }
 
-.occup, .par {
+.occup {
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+/*    padding: 2%;*/
+}
+
+.par {
     font-size: 26px;
     letter-spacing: 1.5px;
     line-height: 1.6;
