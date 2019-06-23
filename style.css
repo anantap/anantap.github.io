@@ -56,6 +56,10 @@ html {
     }
 }
 
+body {
+    background-color: #F8F5ED;
+}
+
 #bg { 
     position: fixed;
     left: 0;
@@ -88,6 +92,10 @@ h1 {
     letter-spacing: 0.02em;
     line-height: 1.4em;
     margin: auto; /* Important */
+}
+
+h2 {
+    font-family: 'youngserifregular', serif;
 }
 
 table {
@@ -188,11 +196,37 @@ table {
     display: flex;
 }
 
+.corner_proj {
+    z-index: 1;
+    background-color: #BD3C32;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+}
+
 .list {
     z-index: 1;
     position: fixed;
     margin: auto;
     bottom: 0;
+    left: 25vw;
+    background-color: #5B8982;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+}
+
+.list_proj {
+    z-index: 1;
+    position: fixed;
+    margin: auto;
+    top: 0;
     left: 25vw;
     background-color: #5B8982;
     width: 25vw;
@@ -214,7 +248,7 @@ table {
     width: 75vw;
 }
 
-.projectimg {
+video, .projectimg {
     margin-top: 5vw;
     margin-bottom: 5vw;
     width: 100%;
@@ -233,6 +267,13 @@ table {
 }
 
 .project_h1 {
+    font-size: 80px;
+    line-height: 1.125;
+    color: black;
+    text-align: left;
+}
+
+.project_h2 {
     font-size: 48px;
     line-height: 1.125;
     color: black;
@@ -316,9 +357,21 @@ table {
     left: 0;
 }
 
+
 .bottom {
     position: absolute;
     top: 100vh;
+    z-index: 2;
+    left: 0;
+    margin-bottom: 0;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+.project_bottom {
+    position: absolute;
+/*    top: 25vw;*/
     z-index: 2;
     left: 0;
     margin-bottom: 0;
