@@ -136,14 +136,7 @@ table {
     text-align: right;
 }
 
-.occup {
-    font-size: 26px;
-    letter-spacing: 1.5px;
-    line-height: 1.6;
-/*    padding: 2%;*/
-}
-
-.par {
+.occup, .par {
     font-size: 26px;
     letter-spacing: 1.5px;
     line-height: 1.6;
@@ -404,6 +397,7 @@ video, .projectimg {
         text-align: center;
     }
     
+/*
     .occup {
     font-size: 3vw;
     }
@@ -411,13 +405,32 @@ video, .projectimg {
     .years {
     font-size: 2vw;
     }
+*/
+    
+    .project_h1 {
+    font-size: 40px;
+    line-height: 1.125;
+    color: black;
+    text-align: left;
+}
+
+.project_h2 {
+    font-size: 30px;
+    line-height: 1.125;
+    color: black;
+    text-align: left;
+}
+    
+.occup, .par {
+    font-size: 18px;
+}
     
     table {
     width: 100%;
         padding: 5%;
 }
     
-    img {
+#bg img{
         margin-left: -100vw;
         overflow: hidden;
     }
