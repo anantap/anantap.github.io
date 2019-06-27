@@ -264,6 +264,16 @@ video, .projectimg {
     height: auto;
     position: relative;
     display: block;
+    -webkit-transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        -ms-transition: opacity .2s ease-in-out;
+        -o-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+}
+
+.homeimg:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .project_h1 {
