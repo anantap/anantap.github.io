@@ -23,6 +23,7 @@ html {
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
     overflow-x: hidden;
+    max-width: 100vw;
 }
 @keyframes fadein {
     from {
@@ -60,6 +61,7 @@ html {
 body {
     background-color: #F8F5ED;
     overflow-x: hidden;
+    max-width: 100vw;
 }
 
 #bg { 
