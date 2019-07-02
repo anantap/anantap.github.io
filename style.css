@@ -375,7 +375,7 @@ video, .projectimg {
 
 
 .bottom {
-    position: absolute;
+    position: relative;
     top: 100vh;
     z-index: 2;
     left: 0;
