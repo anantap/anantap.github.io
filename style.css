@@ -365,7 +365,8 @@ video, .projectimg {
     background-color: black;
     z-index: 0;
 /*    height: 100vh;*/
-    width: 100vw;
+    overflow-x: hidden;
+    max-width: 100vw;
     margin: 0;
     top: 0;
     left: 0;
@@ -378,7 +379,8 @@ video, .projectimg {
     z-index: 2;
     left: 0;
     margin-bottom: 0;
-   width: 100vw;
+   overflow-x: hidden;
+    max-width: 100vw;
     margin: 0;
     text-align: center;
 }
