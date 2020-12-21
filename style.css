@@ -174,12 +174,16 @@ body {
     left: 0;
     top: 0;
     width: 100vw;
+    height: 100vh;
     z-index: -10;
     overflow: hidden;
-    text-align: center;
 }
-    #bg_image {
-      
+
+#bg_image {
+        position: relative;
+        top:0;
+        left: 0;
+        height: auto;
         width: 100%;
         
     }    
@@ -642,8 +646,10 @@ video, .projectimg {
         padding: 5%;
 }
     
-#bg img{
-        margin-left: -100vw;
+#bg_image {
+        margin-left: -50vw;
+    height: 100%;
+    width: auto;
         overflow: hidden;
     }
 
