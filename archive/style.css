@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'youngserifregular';
+    src: url('fonts/youngserif-regular-webfont.woff2') format('woff2'),
+         url('fonts/youngserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'archivoregular';
+    src: url('fonts/archivo-regular-webfont.woff2') format('woff2'),
+         url('fonts/archivo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html {
     -webkit-font-smoothing: antialiased;
@@ -8,121 +24,6 @@ html {
     -o-animation: fadein 2s; /* Opera */
     overflow-x: hidden;
     max-width: 100vw;
-    background-color: #0A0908;
-}
-
-/* HOVERBOX */
-
-.hvrbox,
-.hvrbox * {
-	box-sizing: border-box;
-}
-.hvrbox {
-	position: relative;
-	display: flex;
-	overflow: hidden;
-	max-width: 100%;
-	height: auto;
-}
-.hvrbox img {
-	max-width: 100%;
-}
-.hvrbox .hvrbox-layer_bottom {
-	display: flex;
-}
-.hvrbox .hvrbox-layer_top {
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 10, 14, 0.9);
-	color: #fff;
-	padding: 15px;
-	-moz-transition: all 0.4s ease-in-out 0s;
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	-ms-transition: all 0.4s ease-in-out 0s;
-	transition: all 0.4s ease-in-out 0s;
-}
-.hvrbox:hover .hvrbox-layer_top,
-.hvrbox.active .hvrbox-layer_top {
-	opacity: 1;
-}
-.hvrbox .hvrbox-text {
-	text-align: left;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-	font-size: 4vw;
-/*    letter-spacing: 0.02em;*/
-    line-height: 1em;
-/*	display: inline;*/
-	position: absolute;
-	top: 10%;
-	left: 10%;
-/*
-	-moz-transform: translate(0%, -10%);
-	-webkit-transform: translate(0%, -10%);
-	-ms-transform: translate(0%, -10%);
-	transform: translate(0%, -10%);
-*/
-}
-.hvrbox .hvrbox-text_mobile {
-	font-size: 3vw;
-	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-	border-top: 1px solid rgba(179, 179, 179, 0.7);
-	margin-top: 5px;
-	padding-top: 2px;
-	display: none;
-}
-.hvrbox.active .hvrbox-text_mobile {
-	display: inline-block;
-}
-
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 0;
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF TWO  */
-.span_2_of_2 {
-	width: 100%;
-}
-.span_1_of_2 {
-	width: 50%;
-}
-
-.span_1_of_1 {
-    width: 100%;
-}
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 640px) {
-	.col { 
-		margin: 0;
-	}
-}
-
-@media only screen and (max-width: 640px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }
 
 #wrapper { 
@@ -163,17 +64,17 @@ html {
 }
 
 body {
+    background-color: #F8F5ED;
     overflow-x: hidden;
     max-width: 100vw;
-    margin:0;
-    padding: 0;
 }
 
 #bg { 
     position: fixed;
     left: 0;
     top: 0;
-    max-width: 100vw;
+    height: 100vh;
+    width: 100vw;
     z-index: -10;
     overflow: hidden;
     text-align: center;
@@ -186,19 +87,16 @@ body {
 */
 }
 
-/*
 img {
     height: 130vh;
     width: auto;
     overflow: hidden;
 }
-*/
 
 h1 {
     text-align: center;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    color: #EFEFEF;
+    font-family: 'youngserifregular', serif;
+    color: white;
     font-size: 4vw;
     letter-spacing: 0.02em;
     line-height: 1.4em;
@@ -206,12 +104,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 600;
+    font-family: 'youngserifregular', serif;
 }
 
 table {
-    background-color: #0A0908;
+    background-color: #F8F5ED;
     width: 100vw;
     padding: 15vh 12.5vw;
 /*    padding-right: 12.5vw*/
@@ -223,21 +120,21 @@ table {
     margin: 0;
     top: 0;
     bottom: 0;
-    font-family: 'spacegrotesk', sans-serif;
+    font-family: 'archivoregular', sans-serif;
     color: #000000;
 }
 
 .project_overview {
-    background-color: #0A0908;
+    background-color: #F8F5ED;
     width: 100vw;
     padding-left: 12.5vw;
     padding-right: 12.5vw;
     text-align: left;
-/*    padding-top: 10vh;*/
+    padding-top: 10vh;
     margin: 0;
     top: 0;
     bottom: 0;
-    font-family: 'spacegrotesk', sans-serif;
+    font-family: 'archivoregular', sans-serif;
     color: #000000;
 }
 
@@ -246,69 +143,19 @@ table {
     letter-spacing: 0.05em;
     line-height: 1em;
     text-align: right;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    color: #F7B267;
 }
 
-.occup {
+.occup, .par {
     font-size: 26px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     line-height: 1.6;
-    background-color: #0A0908;
-/*    width: 100vw;*/
-    padding-left: 12.5vw;
-    padding-right: 12.5vw;
-    text-align: left;
-    padding-top: 15vh;
-    padding-bottom: 15vh;
-    margin: 0;
-    top: 0;
-    bottom: 0;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 300;
-    color: #EFEFEF;
 /*    padding: 2%;*/
-}
-
-/*
-.cv {
-    text-align: center;
-    width: 100vw;
-}
-*/
-
-.cv_occup {
-    font-size: 26px;
-    letter-spacing: 1px;
-    line-height: 1.6;
-    background-color: #0A0908;
-/*    width: 100vw;*/
-/*
-    padding-left: 12.5vw;
-    padding-right: 12.5vw;
-*/
-    text-align: left;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    top: 0;
-    bottom: 0;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 300;
-    color: #EFEFEF;
-/*    padding: 2%;*/
-}
-
-.grid {
-    background-color: #001A23;
-    padding: 0;
-    margin: 0;
 }
 
 
 .textlink {
     text-decoration: underline;
-    color: #EFEFEF;
+    color: black;
     -webkit-transition: color .1s ease-in-out;
         -moz-transition: color .1s ease-in-out;
         -ms-transition: color .1s ease-in-out;
@@ -319,10 +166,9 @@ table {
 .link {
     text-decoration: none;
     text-align: center;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 500;
-    color: #EFEFEF;
-    font-size: 2vw;
+    font-family: 'archivoregular', sans-serif;
+    color: white;
+    font-size: 2.5vw;
     letter-spacing: 0.05em;
     line-height: 1.25;
     margin: auto !important; /* Important */
@@ -339,7 +185,6 @@ table {
 .bottomlink:hover {
     cursor: pointer;
     text-decoration: underline;
-    
 }
 
 .textlink:hover {
@@ -349,7 +194,7 @@ table {
 
 .corner {
     z-index: 1;
-    background-color: #001A23;
+    background-color: #BD3C32;
     position: fixed;
     margin: auto;
     bottom: 0;
@@ -358,13 +203,11 @@ table {
     height: 25vw;
     text-align: center;
     display: flex;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
 }
 
 .corner_proj {
     z-index: 1;
-    background-color: #001A23;
+    background-color: #BD3C32;
     position: fixed;
     margin: auto;
     top: 0;
@@ -381,7 +224,7 @@ table {
     margin: auto;
     bottom: 0;
     left: 25vw;
-    background-color: #001A23;
+    background-color: #5B8982;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -394,7 +237,7 @@ table {
     margin: auto;
     top: 0;
     left: 25vw;
-    background-color: #0A0908;
+    background-color: #5B8982;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -406,10 +249,9 @@ table {
 }
 
 .project {
-    font-family: 'spacegrotesk', sans-serif;
-    font-weight: bold;
+    font-family: 'archivoregular', sans-serif;
     padding: 5vw 12.5vw;
-    background-color: #0A0908;
+    background-color: #F8F5ED;
     text-align: left;
     display: flex;
     width: 75vw;
@@ -424,10 +266,9 @@ video, .projectimg {
     display: block;
 }
 
-/*
-.gridimg {
-    margin-bottom: 0;
-    bottom: 0;
+.homeimg {
+    margin-top: 6vw;
+    margin-bottom: 2vw;
     width: 100%;
     height: auto;
     position: relative;
@@ -438,26 +279,23 @@ video, .projectimg {
         -o-transition: opacity .2s ease-in-out;
         transition: opacity .2s ease-in-out;
 }
-*/
 
-/*
-.gridimg:hover {
+.homeimg:hover {
     cursor: pointer;
     opacity: 0.5;
 }
-*/
 
 .project_h1 {
     font-size: 80px;
     line-height: 1.125;
-    color: #EFEFEF;
+    color: black;
     text-align: left;
 }
 
 .project_h2 {
     font-size: 48px;
     line-height: 1.125;
-    color: #EFEFEF;
+    color: black;
     text-align: left;
 }
 
@@ -467,25 +305,9 @@ video, .projectimg {
     margin-top: 5vw;
     margin-bottom: 5vw;
 */
-    width: 80vw;
+    width: 100%;
 /*    background-color: red;*/
     position: relative;
-    font-family: 'spacegrotesk_light', sans-serif;
-    font-weight: light;
-    color: #EFEFEF;
-    font-size: 24px;
-    letter-spacing: 1px;
-    line-height: 1.6;
-    background-color: #0A0908;
-/*    width: 100vw;*/
-    text-align: left;
-    padding-bottom: 10vh;
-    margin: 0;
-    top: 0;
-    bottom: 0;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 300;
-    color: #EFEFEF;
 }
 
 .invisible {
@@ -497,7 +319,7 @@ video, .projectimg {
     padding: 0;
     bottom: 0;
 /*    left: 0;*/
-    background-color: #001A23;
+    background-color: #BD3C32;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -510,7 +332,7 @@ video, .projectimg {
     margin: 0;
     bottom: 0;
 /*    left: 25vw;*/
-    background-color: #001A23;
+    background-color: #27362A;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -522,7 +344,7 @@ video, .projectimg {
     margin: 0;
     bottom: 0;
 /*    left: 50vw;*/
-    background-color: #001A23;
+    background-color: #3A4446;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -534,7 +356,7 @@ video, .projectimg {
     margin: 0;
     bottom: 0;
 /*    left: 75vw;*/
-    background-color: #001A23;
+    background-color: #C0AFA0;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -545,15 +367,13 @@ video, .projectimg {
 
 .top {
     position: fixed;
-    background-color: #0A0908;
+    background-color: black;
     z-index: 0;
 /*    height: 100vh;*/
     width: 100vw;
     margin: 0;
     top: 0;
     left: 0;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 300;
 }
 
 
@@ -577,18 +397,13 @@ video, .projectimg {
     width: 100vw;
     margin: 0;
     text-align: center;
-    background-color: #0A0908;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 600px){
     
     .bottom{
         margin: 0;
         width: 100vw;
-    }
-    
-    .years {
-    font-size: 10vw;
     }
 
     
@@ -605,11 +420,11 @@ video, .projectimg {
     .occup {
     font-size: 3vw;
     }
-*/
     
     .years {
     font-size: 2vw;
     }
+*/
     
     .project_h1 {
     font-size: 40px;
@@ -625,11 +440,9 @@ video, .projectimg {
     text-align: left;
 }
     
-/*
 .occup, .par {
     font-size: 18px;
 }
-*/
     
     table {
     width: 100%;
