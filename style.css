@@ -411,9 +411,11 @@ table {
     display: flex;
 }
 
+/*
 .list:hover {
     opacity: 0;
 }
+*/
 
 .project {
     font-family: 'spacegrotesk', sans-serif;
