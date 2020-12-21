@@ -169,24 +169,13 @@ body {
     padding: 0;
 }
 
-#bg { 
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -10;
-    overflow: hidden;
-}
-
-#bg_image {
-        position: relative;
-        top:0;
-        left: 0;
-        height: 100%;
-        width: auto;
-        
-    }    
+body { 
+  background: url(3.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}  
 /*
     background: url("3.png") no-repeat center center fixed;
     -webkit-background-size: cover;
