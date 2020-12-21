@@ -177,6 +177,12 @@ body {
     z-index: -10;
     overflow: hidden;
     text-align: center;
+}
+    #bg_image {
+      
+        width: 100%;
+        
+    }    
 /*
     background: url("3.png") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -184,7 +190,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 */
-}
+
 
 /*
 img {
