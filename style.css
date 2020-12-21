@@ -380,11 +380,15 @@ table {
     margin: auto;
     bottom: 0;
     left: 25vw;
-    background-color: #001A23;
     width: 25vw;
     height: 25vw;
     text-align: center;
     display: flex;
+    background-color: #EFEFEF;
+}
+
+#example {
+    color: #001A23;
 }
 
 .list_proj {
