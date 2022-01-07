@@ -24,9 +24,9 @@ html {
 	max-width: 100%;
 	height: auto;
 }
-/*.hvrbox img {
+.hvrbox img {
 	max-width: 100%;
-}*/
+}
 .hvrbox .hvrbox-layer_bottom {
 	display: flex;
 }
