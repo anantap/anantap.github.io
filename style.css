@@ -24,9 +24,9 @@ html {
 	max-width: 100%;
 	height: auto;
 }
-.hvrbox img {
+/*.hvrbox img {
 	max-width: 100%;
-}
+}*/
 .hvrbox .hvrbox-layer_bottom {
 	display: flex;
 }
@@ -103,14 +103,14 @@ html {
 .group { zoom:1; /* For IE 6/7 */ }
 /*  GRID OF TWO  */
 .span_2_of_2 {
-	width: 100vw;
+	width: 100%;
 }
 .span_1_of_2 {
-	width: 50vw;
+	width: 50%;
 }
 
 .span_1_of_1 {
-    width: 100vw;
+    width: 100%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
