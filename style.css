@@ -349,7 +349,7 @@ table {
 
 .corner {
     z-index: 1;
-    background-color: #001A23;
+    background-color: #0A0908;
     position: fixed;
     margin: auto;
     bottom: 0;
@@ -364,7 +364,7 @@ table {
 
 .corner_proj {
     z-index: 1;
-    background-color: #001A23;
+    background-color: #0A0908;
     position: fixed;
     margin: auto;
     top: 0;
@@ -389,7 +389,7 @@ table {
 }
 
 #example {
-    color: #001A23;
+    color: #0A0908;
 }
 
 .list_proj {
@@ -503,7 +503,7 @@ video, .projectimg {
     padding: 0;
     bottom: 0;
 /*    left: 0;*/
-    background-color: #001A23;
+    background-color: #0A0908;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -516,7 +516,7 @@ video, .projectimg {
     margin: 0;
     bottom: 0;
 /*    left: 25vw;*/
-    background-color: #001A23;
+    background-color: #0A0908;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -528,7 +528,7 @@ video, .projectimg {
     margin: 0;
     bottom: 0;
 /*    left: 50vw;*/
-    background-color: #001A23;
+    background-color: #0A0908;
     width: 25vw;
     height: 25vw;
     text-align: center;
@@ -540,7 +540,7 @@ video, .projectimg {
     margin: 0;
     bottom: 0;
 /*    left: 75vw;*/
-    background-color: #001A23;
+    background-color: #0A0908;
     width: 25vw;
     height: 25vw;
     text-align: center;
