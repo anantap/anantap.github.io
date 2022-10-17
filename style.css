@@ -214,6 +214,7 @@ body {
     height: 100%;
 }
 
+/*
 body {
     background: url(3.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -221,6 +222,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+*/
 
 /*
     background: url("3.png") no-repeat center center fixed;
