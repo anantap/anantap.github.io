@@ -511,9 +511,10 @@ video, .projectimg {
 }
 
 .top {
+/*    position: fixed;*/
     background-color: #0A0908;
     z-index: 0;
-/*    height: 100vh;*/
+/*    height: 50vh;*/
     width: 100vw;
     margin: 0;
     top: 0;
@@ -521,6 +522,15 @@ video, .projectimg {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 300;
 }
+
+/*
+.bottom{
+    width: 100vw;
+    top: 50vh;
+    position: absolute;
+    z-index: 1;
+}
+*/
 
 #topimage {
     width: 160px;
@@ -555,6 +565,9 @@ video, .projectimg {
         text-align: center;
     }
 */
+    
+
+    
     
     .corner {
         width: 50vw;
