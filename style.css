@@ -191,11 +191,6 @@ line-height:1.4em;
 margin:auto
 }
 
-h2 {
-font-family:'Space Grotesk',sans-serif;
-font-weight:600
-}
-
 table {
 background-color:#0A0908;
 width:100vw;
@@ -221,11 +216,11 @@ font-family:'spacegrotesk',sans-serif;
 color:#000
 }
 
-.years {
-font-size:1.2vw;
+.years, .project_h2 {
+font-size:12px;
 letter-spacing:.05em;
 line-height:1em;
-text-align:right;
+
 font-family:'Space Grotesk',sans-serif;
 font-weight:700;
 color:#F7B267
@@ -295,6 +290,10 @@ margin:auto!important
 -ms-transition:all .2s ease-in-out;
 -o-transition:all .2s ease-in-out;
 transition:all .2s ease-in-out
+}
+
+.par {
+margin-bottom: 80px
 }
 
 .bottomlink:hover {
@@ -387,13 +386,6 @@ color:#EFEFEF;
 text-align:left
 }
 
-.project_h2 {
-font-size:48px;
-line-height:1.125;
-color:#EFEFEF;
-text-align:left
-}
-
 .projecttext {
 width:80vw;
 position:relative;
@@ -470,12 +462,6 @@ font-size:16px
 
 .project_h1 {
 font-size:40px;
-line-height:1.125;
-text-align:left
-}
-
-.project_h2 {
-font-size:30px;
 line-height:1.125;
 text-align:left
 }
