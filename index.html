@@ -1,133 +1,150 @@
 <html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style.css">
-<script
-  src="https://code.jquery.com/jquery-3.4.0.js"
-  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
-  crossorigin="anonymous"></script>
-<title>Ananta Mulyono</title>
-    
-<script type="text/javascript">
-    
-var texts = ["Ananta Mulyono — Digital Designer", "Ananta Mulyono — Internet Explorer", "Ananta Mulyono — Rice Aficionado", "Ananta Mulyono — Bonsai Enthousiast"];
-var count = 0;
-function changeText() {
-    $("#example").text(texts[count]);
-    count < 4 ? count++ : count = 0;
-}
-setInterval(changeText, 500);    
-</script>
-    
-<script>
-    $(window).scroll(function(){
-    $(".list").css("opacity", 1 - $(window).scrollTop() / 250);
-  });
-</script>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
+    <title>Ananta Mulyono</title>
+
+    <script type="text/javascript">
+        var texts = ["Ananta Mulyono — Digital Designer", "Ananta Mulyono — Internet Explorer", "Ananta Mulyono — Rice Aficionado", "Ananta Mulyono — Bonsai Enthousiast"];
+        var count = 0;
+
+        function changeText() {
+            $("#example").text(texts[count]);
+            count < 4 ? count++ : count = 0;
+        }
+        setInterval(changeText, 500);
+
+    </script>
+
+    <script>
+        $(window).scroll(function() {
+            $(".list").css("opacity", 1 - $(window).scrollTop() / 250);
+        });
+
+    </script>
+
 </head>
+
 <body>
-    
-<div class="top">
-    
-    <div class="occup">
-        <img src="topimage.png" id="topimage"><br/><br/>
-        <sup id="example" class="years"></sup><br/><br/>
+
+    <div class="top">
+
+        <div class="occup">
+            <img src="topimage.png" id="topimage"><br /><br />
+            <sup id="example" class="years"></sup><br /><br />
             I am a digital designer, currently making cool visual and interactive stuff for the Internet at Eneco. A few things I'm proud to have done or contributed to:
+        </div>
     </div>
-    </div>    
-    
-<div class="section group grid">
-        
-	<div class="col span_1_of_2">
-	<a href="linkit.html"><div class="hvrbox">
-	<img src="linkit_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
-	<div class="hvrbox-layer_top">
-		<div class="hvrbox-text">
-            Linkit
+
+    <div class="section group grid">
+
+        <div class="col span_1_of_2">
+            <a href="linkit.html">
+                <div class="hvrbox">
+                    <img src="linkit_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
+                    <div class="hvrbox-layer_top">
+                        <div class="hvrbox-text">
+                            Linkit
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
-	</div>
-</div></a>
-	</div>
-        
-	<div class="col span_1_of_2">
-	<a href="kinfill.html"><div class="hvrbox">
-	<img src="kinfill_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
-	<div class="hvrbox-layer_top">
-		<div class="hvrbox-text">
-            Kinfill
+
+        <div class="col span_1_of_2">
+            <a href="kinfill.html">
+                <div class="hvrbox">
+                    <img src="kinfill_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
+                    <div class="hvrbox-layer_top">
+                        <div class="hvrbox-text">
+                            Kinfill
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
-	</div>
-</div></a>
-	</div>
-    
-    <div class="col span_1_of_1">
-	<a href="correspondent.html"><div class="hvrbox">
-	<img src="corrie_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
-	<div class="hvrbox-layer_top">
-		<div class="hvrbox-text">
-            De Correspondent
+
+        <div class="col span_1_of_1">
+            <a href="correspondent.html">
+                <div class="hvrbox">
+                    <img src="corrie_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
+                    <div class="hvrbox-layer_top">
+                        <div class="hvrbox-text">
+                            De Correspondent
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
-	</div>
-</div></a>
-	</div>
-    
-    <div class="col span_1_of_2">
-	<a href="smoov.html"><div class="hvrbox">
-	<img src="smoov_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
-	<div class="hvrbox-layer_top">
-		<div class="hvrbox-text">
-            Smoov
+
+        <div class="col span_1_of_2">
+            <a href="smoov.html">
+                <div class="hvrbox">
+                    <img src="smoov_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
+                    <div class="hvrbox-layer_top">
+                        <div class="hvrbox-text">
+                            Smoov
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
-	</div>
-</div></a>
-	</div>
-        
-    <div class="col span_1_of_2">
-	<a href="veteranendag.html"><div class="hvrbox">
-	<img src="nlvd_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
-	<div class="hvrbox-layer_top">
-		<div class="hvrbox-text">
-            Nationale<br />
-            Veteranendag
+
+        <div class="col span_1_of_2">
+            <a href="veteranendag.html">
+                <div class="hvrbox">
+                    <img src="nlvd_cover.png" alt="Mountains" class="hvrbox-layer_bottom">
+                    <div class="hvrbox-layer_top">
+                        <div class="hvrbox-text">
+                            Nationale<br />
+                            Veteranendag
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
-	</div>
-</div></a>
+
     </div>
-    
-</div>
 
     <table class="cv">
-<tr>
-        <td class="cv_occup">
-            <sup class="years">2021 &mdash; now</sup><br/>
-            UX Designer at <a class="textlink" href="https://www.eneco.nl" target="_blank">Eneco</a>.</td>
-    </tr>
-    <tr>
-        <td class="cv_occup">
-            <sup class="years">2019 &mdash; 2021</sup><br/>
-            UX Designer at <a class="textlink" href="https://www.connectholland.nl" target="_blank">Connect Holland</a>.</td>
-    </tr>
-    <tr>
-        <td class="cv_occup">
-            <sup class="years">2017 &mdash; 2019</sup><br/>
-            Digital Designer at <a class="textlink" href="https://www.siloagency.com" target="_blank">SILO</a>.</td>
-    </tr>
-    <tr>
-        <td class="cv_occup">
-            <sup class="years">2015 &mdash; 2016</sup><br/>
-            Interaction Design Intern at <a class="textlink" href="https://www.vruchtvlees.com" target="_blank">Vruchtvlees</a>.</td>
-    </tr>
-     <tr>
-        <td class="cv_occup">
-            <sup class="years">2012 &mdash; 2017</sup><br/>
-            BSc Communication &amp; Multimedia Design.</td>
-    </tr>
-        </table>
+        <tr>
+            <td class="cv_occup">
+                <sup class="years">2021 &mdash; now</sup><br />
+                UX Designer at <a class="textlink" href="https://www.eneco.nl" target="_blank">Eneco</a>.
+            </td>
+        </tr>
+        <tr>
+            <td class="cv_occup">
+                <sup class="years">2019 &mdash; 2021</sup><br />
+                UX Designer at <a class="textlink" href="https://www.connectholland.nl" target="_blank">Connect Holland</a>.
+            </td>
+        </tr>
+        <tr>
+            <td class="cv_occup">
+                <sup class="years">2017 &mdash; 2019</sup><br />
+                Digital Designer at <a class="textlink" href="https://www.siloagency.com" target="_blank">SILO</a>.
+            </td>
+        </tr>
+        <tr>
+            <td class="cv_occup">
+                <sup class="years">2015 &mdash; 2016</sup><br />
+                Interaction Design Intern at <a class="textlink" href="https://www.vruchtvlees.com" target="_blank">Vruchtvlees</a>.
+            </td>
+        </tr>
+        <tr>
+            <td class="cv_occup">
+                <sup class="years">2012 &mdash; 2017</sup><br />
+                BSc Communication &amp; Multimedia Design.
+            </td>
+        </tr>
+    </table>
     <div class="bottomlink contact">
         <a class="link" href="mailto:ap.mulyono@gmail.com">E-mail</a>
     </div>
-    
+
 </body>
+
 </html>
