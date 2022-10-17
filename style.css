@@ -322,7 +322,7 @@ table {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
     color: #EFEFEF;
-    font-size: 40px;
+    font-size: 24px;
     letter-spacing: 0.05em;
     line-height: 1.25;
     margin: auto !important; /* Important */
@@ -496,55 +496,18 @@ video, .projectimg {
     opacity: 0;
 }
 
-.contact0 {
+.contact {
     margin: 0 !important;
     padding: 0;
     bottom: 0;
 /*    left: 0;*/
     background-color: #0A0908;
-    width: 25vw;
+    width: 100vw;
     height: 15vw;
     text-align: center;
     display: flex;
     float: left;
 /*    opacity: 0;*/
-}
-
-.contact1 {
-    margin: 0;
-    bottom: 0;
-/*    left: 25vw;*/
-    background-color: #0A0908;
-    width: 25vw;
-    height: 15vw;
-    text-align: center;
-    display: flex;
-    float: left;
-}
-
-.contact2 {
-    margin: 0;
-    bottom: 0;
-/*    left: 50vw;*/
-    background-color: #0A0908;
-    width: 25vw;
-    height: 15vw;
-    text-align: center;
-    display: flex;
-    float: left;
-}
-
-.contact3 {
-    margin: 0;
-    bottom: 0;
-/*    left: 75vw;*/
-    background-color: #0A0908;
-    width: 25vw;
-    height: 15vw;
-    text-align: center;
-    display: block;
-    display: flex;
-    float: left;
 }
 
 .top {
@@ -586,10 +549,12 @@ video, .projectimg {
     }
 */
     
+/*
     .link {
         font-size: 40px;
         text-align: center;
     }
+*/
     
     .corner {
         width: 50vw;
