@@ -197,9 +197,9 @@ img {
 h1 {
     text-align: center;
     font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     color: #EFEFEF;
-    font-size: 4vw;
+    font-size: 36px;
     letter-spacing: 0.02em;
     line-height: 1.4em;
     margin: auto; /* Important */
@@ -322,7 +322,7 @@ table {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
     color: #EFEFEF;
-    font-size: 2vw;
+    font-size: 40px;
     letter-spacing: 0.05em;
     line-height: 1.25;
     margin: auto !important; /* Important */
@@ -352,12 +352,13 @@ table {
     background-color: #0A0908;
     position: fixed;
     margin: auto;
+    padding-top: 20px;
     bottom: 0;
     left: 0;
     width: 25vw;
-    height: 25vw;
-    text-align: center;
-    display: flex;
+    height: 80px;
+    justify-content: right;
+    display: inline;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
 }
@@ -370,7 +371,7 @@ table {
     top: 0;
     left: 0;
     width: 25vw;
-    height: 25vw;
+    height: 80px;
     text-align: center;
     display: flex;
 }
@@ -378,19 +379,16 @@ table {
 .list {
     z-index: 1;
     position: fixed;
-    margin: auto;
+    padding-top: 20px;
     bottom: 0;
     left: 25vw;
-    width: 25vw;
-    height: 25vw;
-    text-align: center;
-    display: flex;
-    background-color: #EFEFEF;
+    width: 75vw;
+    height: 80px;
+    text-align: left;
+    /*display: flex;*/
+    background-color: #0A0908;
 }
 
-#example {
-    color: #0A0908;
-}
 
 .list_proj {
     z-index: 1;
@@ -505,7 +503,7 @@ video, .projectimg {
 /*    left: 0;*/
     background-color: #0A0908;
     width: 25vw;
-    height: 25vw;
+    height: 15vw;
     text-align: center;
     display: flex;
     float: left;
@@ -518,7 +516,7 @@ video, .projectimg {
 /*    left: 25vw;*/
     background-color: #0A0908;
     width: 25vw;
-    height: 25vw;
+    height: 15vw;
     text-align: center;
     display: flex;
     float: left;
@@ -530,7 +528,7 @@ video, .projectimg {
 /*    left: 50vw;*/
     background-color: #0A0908;
     width: 25vw;
-    height: 25vw;
+    height: 15vw;
     text-align: center;
     display: flex;
     float: left;
@@ -542,7 +540,7 @@ video, .projectimg {
 /*    left: 75vw;*/
     background-color: #0A0908;
     width: 25vw;
-    height: 25vw;
+    height: 15vw;
     text-align: center;
     display: block;
     display: flex;
@@ -550,7 +548,6 @@ video, .projectimg {
 }
 
 .top {
-    position: fixed;
     background-color: #0A0908;
     z-index: 0;
 /*    height: 100vh;*/
@@ -562,17 +559,10 @@ video, .projectimg {
     font-weight: 300;
 }
 
-
-.bottom {
-    position: absolute;
-    top: 100vh;
-    z-index: 2;
-    left: 0;
-    margin-bottom: 0;
-   width: 100vw;
-    margin: 0;
-    text-align: center;
+#topimage {
+    width: 160px;
 }
+
 
 .project_bottom {
     position: absolute;
@@ -588,33 +578,29 @@ video, .projectimg {
 
 @media screen and (max-width: 640px){
     
-    .bottom{
-        margin: 0;
-        width: 100vw;
-    }
-    
-    .years {
-    font-size: 10vw;
-    }
 
     
+/*
     .list {
         text-align: center;
     }
+*/
     
     .link {
-        font-size: 4vw;
+        font-size: 40px;
         text-align: center;
     }
     
-/*
-    .occup {
-    font-size: 3vw;
+    .corner {
+        width: 50vw;
     }
-*/
+    
+    .occup, .cv_occup {
+    font-size: 22px;
+    }
     
     .years {
-    font-size: 2vw;
+    font-size: 16px;
     }
     
     .project_h1 {
@@ -640,12 +626,6 @@ video, .projectimg {
         padding: 5%;
 }
     
-#bg_image {
-        margin-left: -50vw;
-    height: 100%;
-    width: auto;
-        overflow: hidden;
-    }
 
     
 }
