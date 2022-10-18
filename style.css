@@ -262,7 +262,7 @@ padding:0;
 margin:0
 }
 
-.textlink, .contact {
+.textlink {
 text-decoration:underline;
 color:#EFEFEF;
 -webkit-transition:color .1s ease-in-out;
@@ -272,17 +272,6 @@ color:#EFEFEF;
 transition:color .1s ease-in-out
 }
 
-.link {
-text-decoration:none;
-text-align:center;
-font-family:'Space Grotesk',sans-serif;
-font-weight:500;
-color:#EFEFEF;
-font-size:24px;
-letter-spacing:.05em;
-line-height:1.25;
-margin:auto!important
-}
 
 .bottomlink {
 -webkit-transition:all .2s ease-in-out;
@@ -414,7 +403,7 @@ opacity:0
 margin:0!important;
 padding:0;
 bottom:0;
-background-color:#C0AFA0;
+background-color:#1E1E1E;
 width:100vw;
 height:15vw;
 text-align:center;
