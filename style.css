@@ -262,7 +262,7 @@ padding:0;
 margin:0
 }
 
-.textlink {
+.textlink, .contact {
 text-decoration:underline;
 color:#EFEFEF;
 -webkit-transition:color .1s ease-in-out;
@@ -414,7 +414,7 @@ opacity:0
 margin:0!important;
 padding:0;
 bottom:0;
-background-color:#161514;
+background-color:#C0AFA0;
 width:100vw;
 height:15vw;
 text-align:center;
