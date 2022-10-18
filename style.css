@@ -274,6 +274,7 @@ transition:color .1s ease-in-out
 
 
 .bottomlink {
+color:#EFEFEF;
 -webkit-transition:all .2s ease-in-out;
 -moz-transition:all .2s ease-in-out;
 -ms-transition:all .2s ease-in-out;
@@ -408,7 +409,7 @@ width:100vw;
 height:15vw;
 text-align:center;
 display:flex;
-float:left
+float:left;
 }
 
 .top {
