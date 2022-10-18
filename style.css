@@ -263,7 +263,7 @@ margin:0
 }
 
 .textlink {
-text-decoration:underline;
+text-decoration:underline solid 1px;
 color:#EFEFEF;
 -webkit-transition:color .1s ease-in-out;
 -moz-transition:color .1s ease-in-out;
@@ -287,7 +287,7 @@ margin-bottom: 80px
 
 .bottomlink:hover {
 cursor:pointer;
-text-decoration:underline
+text-decoration:underline solid 1px;
 }
 
 .textlink:hover {
