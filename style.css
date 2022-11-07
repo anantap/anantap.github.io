@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap";
 
 html {
 -webkit-font-smoothing:antialiased;
@@ -55,7 +55,7 @@ opacity:1
 
 .hvrbox .hvrbox-text {
 text-align:left;
-font-family:'Space Grotesk',sans-serif;
+font-family:'DM Sans',sans-serif;
 font-weight:700;
 font-size:4vw;
 line-height:1em;
@@ -182,8 +182,8 @@ height:100%
 
 h1 {
 text-align:center;
-font-family:'Space Grotesk',sans-serif;
-font-weight:500;
+font-family:'DM Sans',sans-serif;
+font-weight:700;
 color:#EFEFEF;
 font-size:36px;
 letter-spacing:.02em;
@@ -221,7 +221,7 @@ font-size:12px;
 letter-spacing:.05em;
 line-height:1em;
 
-font-family:'Space Grotesk',sans-serif;
+font-family:'DM Sans',sans-serif;
 font-weight:700;
 color:#F7B267
 }
@@ -235,8 +235,8 @@ text-align:left;
 margin:0;
 top:0;
 bottom:0;
-font-family:'Space Grotesk',sans-serif;
-font-weight:300;
+font-family:'DM Sans',sans-serif;
+font-weight:400;
 color:#EFEFEF;
 padding:15vh 20vw
 }
@@ -251,8 +251,8 @@ padding-top:5vh;
 padding-bottom:5vh;
 top:0;
 bottom:0;
-font-family:'Space Grotesk',sans-serif;
-font-weight:300;
+font-family:'DM Sans',sans-serif;
+font-weight:400;
 color:#EFEFEF
 }
 
@@ -263,7 +263,7 @@ margin:0
 }
 
 .textlink {
-text-decoration:underline solid 1px;
+text-decoration:none;
 color:#EFEFEF;
 -webkit-transition:color .1s ease-in-out;
 -moz-transition:color .1s ease-in-out;
@@ -275,7 +275,7 @@ transition:color .1s ease-in-out
 .link {
 text-decoration:none;
 text-align:center;
-font-family:'Space Grotesk',sans-serif;
+font-family:'DM Sans',sans-serif;
 font-weight:500;
 color:#EFEFEF;
 font-size:24px;
@@ -298,7 +298,7 @@ margin-bottom: 80px
 
 .bottomlink:hover {
 cursor:pointer;
-text-decoration:underline solid 1px
+text-decoration:none
 }
 
 .textlink:hover {
@@ -318,7 +318,7 @@ width:25vw;
 height:80px;
 justify-content:right;
 display:inline;
-font-family:'Space Grotesk',sans-serif;
+font-family:'DM Sans',sans-serif;
 font-weight:700
 }
 
@@ -401,8 +401,8 @@ padding-bottom:10vh;
 margin:0;
 top:0;
 bottom:0;
-font-family:'Space Grotesk',sans-serif;
-font-weight:300;
+font-family:'DM Sans',sans-serif;
+font-weight:400;
 color:#EFEFEF
 }
 
@@ -429,8 +429,8 @@ width:100vw;
 margin:0;
 top:0;
 left:0;
-font-family:'Space Grotesk',sans-serif;
-font-weight:300
+font-family:'DM Sans',sans-serif;
+font-weight:400
 }
 
 #topimage {
