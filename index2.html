@@ -7,25 +7,36 @@
     <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
     <title>Ananta Mulyono</title>
     
+    <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
 
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 800);
+          }
+
+          var images = [], x = -1;
+          images[0] = "slidey_mcslideface/slider_2.png";
+          images[1] = "slidey_mcslideface/slider_3.png";
+          images[2] = "slidey_mcslideface/slider_4.png";
+          images[3] = "slidey_mcslideface/slider_5.png";
+          images[4] = "slidey_mcslideface/slider_6.png";
+          images[5] = "slidey_mcslideface/slider_7.png";
+          images[6] = "slidey_mcslideface/slider_8.png";
+      </script>
 
 </head>
 
-<body>
+<body onload = "startTimer()">
 
-        <div id="slideshow">
-    <div class="container">
-        <section><img src="slidey_mcslideface/slider_2.png"></section>
-        <section><img src="slidey_mcslideface/slider_3.png"></section>
-        <section><img src="slidey_mcslideface/slider_4.png"></section>
-        <section><img src="slidey_mcslideface/slider_5.png"></section>
-        <section><img src="slidey_mcslideface/slider_6.png"></section>
-        <section><img src="slidey_mcslideface/slider_7.png"></section>
-        <section><img src="slidey_mcslideface/slider_8.png"></section>
-        <section><img src="slidey_mcslideface/slider_9.png"></section>
-        <section><img src="slidey_mcslideface/slider_2.png"></section>
-    </div>
-    </div>
+        <img id="img" src="slidey_mcslideface/slider_1.png"/>
     
 
         <div class="first">

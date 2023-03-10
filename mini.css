@@ -42,7 +42,7 @@ color:#C0AFA0
     font-weight:400;
     color:#EFEFEF;
     padding:7.5vh 40vh 0vh 5vh;
-    width: 60vw
+    width: 30vw
 }
 
 
@@ -64,65 +64,11 @@ color:#EFEFEF
 
 /*  IMAGE TICKER  */
 
-#slideshow {
-    width:100vw;
-    margin:0 auto;
-    overflow:hidden;
-}
-
-.container {
-    width:1000vw; /* 300 x 4 */
-    position:relative;
-    -webkit-animation: drift 60s linear infinite both;
-    -moz-animation:drift 60s linear infinite both;
-    -ms-animation:drift 60s linear infinite both;
-    -o-animation:drift 60s linear infinite both;
-    animation:drift 60s linear infinite both;
-    
-}
-
-.container section {
-    width:50vw;
-    height:70vh;
-    float:left;
-}
-
-.container section:nth-child(1) 
-.container section:nth-child(2) 
-.container section:nth-child(3) 
-.container section:nth-child(4)
-.container section:nth-child(5)
-.container section:nth-child(6)
-.container section:nth-child(7)
-.container section:nth-child(8)
-.container section:nth-child(9)
-
-
-@-webkit-keyframes drift {
-    0% {left:0;}
-    100% {left:-450vw;}
-}
-}
-@-moz-keyframes drift {
-    0% {left:0;}
-    100% {left:-450vw;}
-}
-@-ms-keyframes drift {
-    0% {left:0;}
-    100% {left:-450vw;}
-}
-@-o-keyframes drift {
-    0% {left:0;}
-    100% {left:-450vw;}
-}
-@keyframes drift {
-    0% {left:0;}
-    100% {left:-450vw;}
-}
-
 
 img {
-    height: 100%;
+    display:block;
+    width: 100vw;
+    height:auto;
 }
 
 
@@ -143,27 +89,10 @@ width: 90vw
 font-size:16px;
 padding:5vh 5vw 5vh 5vw
 }    
-      
-
-img {
-    height: 100%;
-}    
+       
     
 .years {
 font-size:12px;
     color:#C0AFA0
 }
-    
-/*
-    #slideshow {
-        margin-top: 10vh;
-    }
-*/
 
-.container section {
-    width:80vw;
-    height:30vh;
-    float:left;
-}
-
-}
