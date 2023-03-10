@@ -89,11 +89,11 @@ color:#EFEFEF
 .container {
     width:1000vw; /* 300 x 4 */
     position:relative;
-    -webkit-animation: drift 30s linear infinite both;
-    -moz-animation:drift 30s linear infinite both;
-    -ms-animation:drift 30s linear infinite both;
-    -o-animation:drift 30s linear infinite both;
-    animation:drift 30s linear infinite both;
+    -webkit-animation: drift 30s ease-in-out infinite both;
+    -moz-animation:drift 30s ease-in-out infinite both;
+    -ms-animation:drift 30s ease-in-out infinite both;
+    -o-animation:drift 30s ease-in-out infinite both;
+    animation:drift 30s ease-in-out infinite both;
     
 }
 
@@ -106,33 +106,33 @@ color:#EFEFEF
 .container section:nth-child(2) 
 .container section:nth-child(3) 
 .container section:nth-child(4)
-.container section:nth-child(5)
-.container section:nth-child(6)
-.container section:nth-child(7)
-.container section:nth-child(8)
-.container section:nth-child(9)
 
 
 @-webkit-keyframes drift {
-    0% {left:0;}
-    100% {left:-240vw;}
+    0% {left:5vw;}
+    50% {left:-145vw;}
+    100% {left:5vw;}
 }
 }
 @-moz-keyframes drift {
-    0% {left:0;}
-    100% {left:-240vw;}
+    0% {left:5vw;}
+    50% {left:-145vw;}
+    100% {left:5vw;}
 }
 @-ms-keyframes drift {
-    0% {left:0;}
-    100% {left:-240vw;}
+    0% {left:5vw;}
+    50% {left:-145vw;}
+    100% {left:5vw;}
 }
 @-o-keyframes drift {
-    0% {left:0;}
-    100% {left:-240vw;}
+    0% {left:5vw;}
+    50% {left:-145vw;}
+    100% {left:5vw;}
 }
 @keyframes drift {
-    0% {left:0;}
-    100% {left:-240vw;}
+    0% {left:5vw;}
+    50% {left:-145vw;}
+    100% {left:5vw;}
 }
 
 
@@ -147,34 +147,27 @@ img {
 
 @media screen and (max-width: 720px) {
 
-.first {
-font-size:16px;
-padding:5vh 5vw 5vh 5vw;
-width: 90vw
-}
-
-.occup, .contact {
-font-size:16px;
-padding:5vh 5vw 5vh 5vw
-}    
+.text {
+    font-size:16px;
+    padding:5vh 5vw 5vh 5vw;
+    width: 90vw
+}  
       
 
 img {
-     display: block;
+    display: block;
     width: 95%;
     height: auto
 }    
     
-.years {
+.smol {
 font-size:12px;
     color:#C0AFA0
 }
     
-
-.container section {
-    width:110vw;
-    height:30vh;
-    float:left;
+.lilboy {
+    padding:5vh 0vw 5vh 5vw
 }
+    
 
 }
