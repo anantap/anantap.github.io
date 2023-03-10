@@ -3,9 +3,6 @@
 html {
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
-    -moz-animation:fadein 2s;
-    -webkit-animation:fadein 2s;
-    -o-animation:fadein 2s;
     overflow-x:hidden;
     max-width:100vw;
     background-color:#0A0908
@@ -18,6 +15,20 @@ body {
     margin:0;
     padding:0;
     height:100%
+    -moz-animation:fadein 4s;
+    -webkit-animation:fadein 4s;
+    -o-animation:fadein 4s;
+    -o-animation:fadein 4s;
+}
+
+@-webkit-keyframes fadein {
+  0%,25% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadein {
+  0%,25% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .smol {
@@ -98,6 +109,9 @@ body {
     
 }
 
+img {
+    border-radius: 6px
+}
 
 .container section {
     width:60vw;
