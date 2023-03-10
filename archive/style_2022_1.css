@@ -1,0 +1,458 @@
+@font-face {
+    font-family: 'youngserifregular';
+    src: url('fonts/youngserif-regular-webfont.woff2') format('woff2'),
+         url('fonts/youngserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'archivoregular';
+    src: url('fonts/archivo-regular-webfont.woff2') format('woff2'),
+         url('fonts/archivo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+#wrapper { 
+    overflow-x: hidden;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: #F8F5ED;
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
+#bg { 
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -10;
+    overflow: hidden;
+    text-align: center;
+/*
+    background: url("3.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+*/
+}
+
+img {
+    height: 130vh;
+    width: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'youngserifregular', serif;
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 0.02em;
+    line-height: 1.4em;
+    margin: auto; /* Important */
+}
+
+h2 {
+    font-family: 'youngserifregular', serif;
+}
+
+table {
+    background-color: #F8F5ED;
+    width: 100vw;
+    padding: 15vh 12.5vw;
+/*    padding-right: 12.5vw*/
+    text-align: left;
+/*
+    padding: 15vh 0;
+    padding-top: 
+*/
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'archivoregular', sans-serif;
+    color: #000000;
+}
+
+.project_overview {
+    background-color: #F8F5ED;
+    width: 100vw;
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+    text-align: left;
+    padding-top: 10vh;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'archivoregular', sans-serif;
+    color: #000000;
+}
+
+.years {
+    font-size: 1.2vw;
+    letter-spacing: 0.05em;
+    line-height: 1em;
+    text-align: right;
+}
+
+.occup, .par {
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+/*    padding: 2%;*/
+}
+
+
+.textlink {
+    text-decoration: underline;
+    color: black;
+    -webkit-transition: color .1s ease-in-out;
+        -moz-transition: color .1s ease-in-out;
+        -ms-transition: color .1s ease-in-out;
+        -o-transition: color .1s ease-in-out;
+        transition: color .1s ease-in-out;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'archivoregular', sans-serif;
+    color: white;
+    font-size: 2.5vw;
+    letter-spacing: 0.05em;
+    line-height: 1.25;
+    margin: auto !important; /* Important */
+}
+
+.bottomlink {
+    -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+}
+
+.bottomlink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.textlink:hover {
+    cursor: pointer;
+    color: #C0AFA0;
+}
+
+.corner {
+    z-index: 1;
+    background-color: #BD3C32;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+}
+
+.corner_proj {
+    z-index: 1;
+    background-color: #BD3C32;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+}
+
+.list {
+    z-index: 1;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    left: 25vw;
+    background-color: #5B8982;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+}
+
+.list_proj {
+    z-index: 1;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 25vw;
+    background-color: #5B8982;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+}
+
+.list:hover {
+    opacity: 0;
+}
+
+.project {
+    font-family: 'archivoregular', sans-serif;
+    padding: 5vw 12.5vw;
+    background-color: #F8F5ED;
+    text-align: left;
+    display: flex;
+    width: 75vw;
+}
+
+video, .projectimg {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+.homeimg {
+    margin-top: 6vw;
+    margin-bottom: 2vw;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    -webkit-transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        -ms-transition: opacity .2s ease-in-out;
+        -o-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+}
+
+.homeimg:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.project_h1 {
+    font-size: 80px;
+    line-height: 1.125;
+    color: black;
+    text-align: left;
+}
+
+.project_h2 {
+    font-size: 48px;
+    line-height: 1.125;
+    color: black;
+    text-align: left;
+}
+
+.projecttext {
+/*    margin-left: 25vw;*/
+/*
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+*/
+    width: 100%;
+/*    background-color: red;*/
+    position: relative;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.contact0 {
+    margin: 0 !important;
+    padding: 0;
+    bottom: 0;
+/*    left: 0;*/
+    background-color: #BD3C32;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+    float: left;
+/*    opacity: 0;*/
+}
+
+.contact1 {
+    margin: 0;
+    bottom: 0;
+/*    left: 25vw;*/
+    background-color: #27362A;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+    float: left;
+}
+
+.contact2 {
+    margin: 0;
+    bottom: 0;
+/*    left: 50vw;*/
+    background-color: #3A4446;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: flex;
+    float: left;
+}
+
+.contact3 {
+    margin: 0;
+    bottom: 0;
+/*    left: 75vw;*/
+    background-color: #C0AFA0;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    display: block;
+    display: flex;
+    float: left;
+}
+
+.top {
+    position: fixed;
+    background-color: black;
+    z-index: 0;
+/*    height: 100vh;*/
+    width: 100vw;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+
+.bottom {
+    position: absolute;
+    top: 100vh;
+    z-index: 2;
+    left: 0;
+    margin-bottom: 0;
+   width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+.project_bottom {
+    position: absolute;
+/*    top: 25vw;*/
+    z-index: 2;
+    left: 0;
+    margin-bottom: 0;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    
+    .bottom{
+        margin: 0;
+        width: 100vw;
+    }
+
+    
+    .list {
+        text-align: center;
+    }
+    
+    .link {
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+/*
+    .occup {
+    font-size: 3vw;
+    }
+    
+    .years {
+    font-size: 2vw;
+    }
+*/
+    
+    .project_h1 {
+    font-size: 40px;
+    line-height: 1.125;
+    color: black;
+    text-align: left;
+}
+
+.project_h2 {
+    font-size: 30px;
+    line-height: 1.125;
+    color: black;
+    text-align: left;
+}
+    
+.occup, .par {
+    font-size: 18px;
+}
+    
+    table {
+    width: 100%;
+        padding: 5%;
+}
+    
+#bg img{
+        margin-left: -100vw;
+        overflow: hidden;
+    }
+
+    
+}
