@@ -89,11 +89,11 @@ color:#EFEFEF
 .container {
     width:1000vw; /* 300 x 4 */
     position:relative;
-    -webkit-animation: drift 60s linear infinite both;
-    -moz-animation:drift 60s linear infinite both;
-    -ms-animation:drift 60s linear infinite both;
-    -o-animation:drift 60s linear infinite both;
-    animation:drift 60s linear infinite both;
+    -webkit-animation: drift 30s linear infinite both;
+    -moz-animation:drift 30s linear infinite both;
+    -ms-animation:drift 30s linear infinite both;
+    -o-animation:drift 30s linear infinite both;
+    animation:drift 30s linear infinite both;
     
 }
 
@@ -115,24 +115,24 @@ color:#EFEFEF
 
 @-webkit-keyframes drift {
     0% {left:0;}
-    100% {left:-480vw;}
+    100% {left:-240vw;}
 }
 }
 @-moz-keyframes drift {
     0% {left:0;}
-    100% {left:-450vw;}
+    100% {left:-240vw;}
 }
 @-ms-keyframes drift {
     0% {left:0;}
-    100% {left:-480vw;}
+    100% {left:-240vw;}
 }
 @-o-keyframes drift {
     0% {left:0;}
-    100% {left:-480vw;}
+    100% {left:-240vw;}
 }
 @keyframes drift {
     0% {left:0;}
-    100% {left:-480vw;}
+    100% {left:-240vw;}
 }
 
 
