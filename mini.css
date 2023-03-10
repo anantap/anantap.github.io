@@ -20,16 +20,16 @@ padding:0;
 height:100%
 }
 
-.years {
+.smol {
 font-size:12px;
 letter-spacing:.05em;
 line-height:1em;
 font-family:'DM Sans',sans-serif;
 font-weight:700;
-color:#C0AFA0
+color:#C0AFA0;
 }
 
-.first {
+.text {
     font-size:20px;
     letter-spacing:1px;
     line-height:1.6;
@@ -41,7 +41,23 @@ color:#C0AFA0
     font-family:'DM Sans',sans-serif;
     font-weight:400;
     color:#EFEFEF;
-    padding:7.5vh 40vh 0vh 5vh;
+    padding:5vh 40vh 10vh 5vh;
+    width: 60vw
+}
+
+.lilboy {
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:1.6;
+    background-color:#0A0908;
+    text-align:left;
+    margin:0;
+    top:0;
+    bottom:0;
+    font-family:'DM Sans',sans-serif;
+    font-weight:400;
+    color:#EFEFEF;
+    padding:5vh 40vh 5vh 5vh;
     width: 60vw
 }
 
@@ -99,7 +115,7 @@ color:#EFEFEF
 
 @-webkit-keyframes drift {
     0% {left:0;}
-    100% {left:-450vw;}
+    100% {left:-480vw;}
 }
 }
 @-moz-keyframes drift {
@@ -108,15 +124,15 @@ color:#EFEFEF
 }
 @-ms-keyframes drift {
     0% {left:0;}
-    100% {left:-450vw;}
+    100% {left:-480vw;}
 }
 @-o-keyframes drift {
     0% {left:0;}
-    100% {left:-450vw;}
+    100% {left:-480vw;}
 }
 @keyframes drift {
     0% {left:0;}
-    100% {left:-450vw;}
+    100% {left:-480vw;}
 }
 
 
@@ -127,8 +143,6 @@ img {
 }
 
 /*  MOBILE  */
-
-
 
 
 @media screen and (max-width: 720px) {
