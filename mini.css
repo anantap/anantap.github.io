@@ -105,7 +105,7 @@ body {
 }
 
 
-/*  IMAGE TICKER  */
+/*  IMAGES  */
 
 
 /* RESET RULES
@@ -204,52 +204,6 @@ input[type="radio"] {
   grid-template-columns: repeat(2, 1fr);
 }
 
-/*
-.posts .post {
-  background: #fafafa;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.posts .post-title {
-  font-size: 1.3rem;
-}
-
-.posts .post-title:hover {
-  text-decoration: underline;
-}
-
-.posts figcaption {
-  padding: 1rem;
-}
-
-.posts .post-categories {
-  margin-bottom: 0.75rem;
-  font-size: 0.75rem;
-}
-
-.posts .post-categories * {
-  display: inline-block;
-}
-
-.posts .post-categories li {
-  margin-bottom: 0.2rem;
-}
-
-.posts .post-categories a {
-  padding: 0.2rem 0.5rem;
-  border-radius: 1rem;
-  border: 1px solid;
-  line-height: normal;
-  transition: all 0.1s;
-}
-
-.posts .post-categories a:hover {
-  background: var(--green);
-  color: var(--white);
-}
-*/
-
-
 /* FILTERING RULES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 [value="All"]:checked ~ .filters [for="All"],
@@ -277,42 +231,33 @@ input[type="radio"] {
 }
 
 
-/* MQ
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-@media screen and (max-width: 900px) {
-  .posts {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 650px) {
-  html {
-    font-size: 14px;
-  }
-
-  .posts {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-
 /*  MOBILE  */
 
 
 @media screen and (max-width: 720px) {
 
+.posts {
+    grid-template-columns: repeat(1, 1fr);
+}
+    
 .text {
-    font-size:16px;
+    font-size:18px;
     padding:5vh 5vw 5vh 5vw;
     width: 90vw
-}  
-      
+} 
 
-img {
-    display: block;
-    width: 95%;
-    height: auto
-}    
+.textlabel, .textlink, .bottombuttons {
+     font-size: 16px;
+    border-radius: 8px;
+    }
+    
+.textlabel {
+        padding: 4px 8px 6px 8px;
+    }
+    
+.bottombuttons {      
+padding: 8px 16px;
+    }
     
 .smol {
 font-size:12px;
