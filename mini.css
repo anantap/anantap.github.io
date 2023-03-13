@@ -52,17 +52,16 @@ body {
     font-family:'DM Sans',sans-serif;
     font-weight:400;
     color:#EFEFEF;
-    padding:0vh 5vw 10vh 5vw;
+    padding:5vh 5vw 10vh 5vw;
     width: 90vw
 }
 
 .lilboy {
-    
     font-family:'DM Sans',sans-serif;
     font-weight:400;
     color:#EFEFEF;
     padding:5vh 40vw 5vh 5vw;
-    width: 60vw
+    width: 90vw
 }
 
 
@@ -80,22 +79,24 @@ body {
     transition:color .1s ease-in-out
 }
 
-.bottombuttons {
-    padding: 12px 18px;
-    border-radius: 8px;
-    background-color:#0A0908;
-    border:solid .5px #666;
+.topbuttons {
+    font-size:16px;
+    letter-spacing:.05em;
     font-family:'DM Sans',sans-serif;
-    font-size: 18px;
     font-weight:400;
-    text-decoration:none;
     color:#EFEFEF;
+    text-decoration: none;
+    padding-left: 5vw;
+    -webkit-transition:color .1s ease-in-out;
+    -moz-transition:color .1s ease-in-out;
+    -ms-transition:color .1s ease-in-out;
+    -o-transition:color .1s ease-in-out;
+    transition:color .1s ease-in-out
 }
 
-.bottombuttons:hover {
-    background-color:#EFEFEF;
+.topbuttons:hover {
     cursor:pointer;
-    color:#0A0908
+    color:#C0AFA0
 }
 
 .textlink:hover {
@@ -143,33 +144,6 @@ ol {
 input[type="radio"] {
   position: absolute;
   left: -9999px;
-}
-
-
-/* FILTERS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.filters {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.filters * {
-  display: inline-block;
-}
-
-.filters label {
-  padding: 0.5rem 1rem;
-  margin-bottom: 0.25rem;
-  border-radius: 2rem;
-  min-width: 50px;
-  line-height: normal;
-  cursor: pointer;
-  transition: all 0.1s;
-}
-
-.filters label:hover {
-  background: var(--green);
-  color: var(--white);
 }
 
 .textlabel {
@@ -245,7 +219,7 @@ input[type="radio"] {
     width: 90vw
 } 
 
-.textlabel, .textlink, .bottombuttons {
+.textlabel, .textlink {
      font-size: 16px;
     border-radius: 6px;
     }
@@ -254,15 +228,9 @@ input[type="radio"] {
         padding: 4px 8px 6px 8px;
     }
     
-.bottombuttons {      
-padding: 8px 16px;
-    }
-    
-.smol {
-font-size:12px;
-    color:#C0AFA0
+.smol, .topbuttons {
+font-size:12px
 }
-    
-    
+      
 
 }
