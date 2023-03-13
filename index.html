@@ -21,6 +21,7 @@
     
     
     
+<!--
 <div id="slideshow">
     <div class="container">
         <section><img src="slidey_mcslideface/slider_2.png"></section>
@@ -30,20 +31,39 @@
         <section><img src="slidey_mcslideface/slider_2.png"></section>
     </div>
 </div>
+-->
     
-
     
     
 <div class="text">
     
-            I am a UX designer &mdash; currently making cool, usable, accessible and interactive stuff for the Internet at the Municipality of The Hague. My past experience includes working at <a class="textlink" target="_blank" href="https://silo.nl/">Silo</a>, <a class="textlink" target="_blank" href="https://www.harborn.com/en/">Harborn</a> and <a class="textlink" target="_blank" href="https://eneco.nl/">Eneco</a>. In my spare time I like to dabble in photography and tiny trees.
+            I am a UX designer &mdash; currently making cool, usable, accessible and interactive stuff for the <label class="textlabel" for="web">Internet</label> at the Municipality of The Hague. My past experience includes working at <a class="textlink" target="_blank" href="https://silo.nl/">Silo</a>, <a class="textlink" target="_blank" href="https://www.harborn.com/en/">Harborn</a> and <a class="textlink" target="_blank" href="https://eneco.nl/">Eneco</a>. In my spare time I like to dabble in <label class="textlabel" for="photography">photography</label> and <label class="textlabel" for="bonsai">tiny trees</label>.
             <br /><br />
-            <sup class="smol"><a class="textlink" href="mailto:ap.mulyono@gmail.com">E-mail &#x2197;&#xFE0E;</a></sup>
-            
+            <a class="contactlink" href="mailto:ap.mulyono@gmail.com"><button class="email">E-mail</button></a>
+            <button class="email"><label for="All">Reset filters</label></button>               
 </div>
     
     
-    
+<section class="author-archive">
+  <div class="container">
+    <input type="radio" id="All" name="categories" value="All" checked>
+    <input type="radio" id="web" name="categories" value="web">
+    <input type="radio" id="photography" name="categories" value="photography">
+    <input type="radio" id="bonsai" name="categories" value="bonsai">
+
+    <ol class="posts">
+      <li class="post" data-category="bonsai">
+              <img src="slidey_mcslideface/slider_1.png" alt="">
+      </li>
+      <li class="post" data-category="web">
+        <img src="slidey_mcslideface/slider_2.png" alt="">
+      </li>
+      <li class="post" data-category="photography">
+        <img src="slidey_mcslideface/slider_3.png" alt="">
+      </li>
+    </ol>
+  </div>
+</section>
     
     
 </body>

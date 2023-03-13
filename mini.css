@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@300;500&display=swap');
 
 html {
     -webkit-font-smoothing:antialiased;
@@ -32,7 +32,7 @@ body {
 }
 
 .smol {
-    font-size:12px;
+    font-size:16px;
     letter-spacing:.05em;
     line-height:1em;
     font-family:'DM Sans',sans-serif;
@@ -41,7 +41,7 @@ body {
 }
 
 .text {
-    font-size:20px;
+    font-size:36px;
     letter-spacing:1px;
     line-height:1.6;
     background-color:#0A0908;
@@ -52,28 +52,25 @@ body {
     font-family:'DM Sans',sans-serif;
     font-weight:400;
     color:#EFEFEF;
-    padding:5vh 40vh 10vh 5vh;
-    width: 60vw
+    padding:0vh 5vw 10vh 5vw;
+    width: 90vw
 }
 
 .lilboy {
-    font-size:20px;
-    letter-spacing:1px;
-    line-height:1.6;
-    background-color:#0A0908;
-    text-align:left;
-    margin:0;
-    top:0;
-    bottom:0;
+    
     font-family:'DM Sans',sans-serif;
     font-weight:400;
     color:#EFEFEF;
-    padding:5vh 40vh 5vh 5vh;
+    padding:5vh 40vw 5vh 5vw;
     width: 60vw
 }
 
 
 .textlink {
+    font-family:'Fraunces', serif;
+    font-weight: 300;
+    letter-spacing:.1px;
+    font-size: 38px;
     text-decoration:none;
     color:#C0AFA0;
     -webkit-transition:color .1s ease-in-out;
@@ -81,6 +78,25 @@ body {
     -ms-transition:color .1s ease-in-out;
     -o-transition:color .1s ease-in-out;
     transition:color .1s ease-in-out
+}
+
+.email {
+    padding: 16px 24px;
+    border-radius: 12px;
+    background-color:#0A0908;
+    border:solid .5px white;
+    font-family:'DM Sans',sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    letter-spacing:.05em;
+    text-decoration:none;
+    color:#EFEFEF;
+}
+
+.email:hover {
+    background-color:#EFEFEF;
+    cursor:pointer;
+    color:#0A0908
 }
 
 .textlink:hover {
@@ -91,68 +107,190 @@ body {
 
 /*  IMAGE TICKER  */
 
-#slideshow {
-    width:100vw;
-    margin:0 auto;
-    overflow:hidden;
+
+/* RESET RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --black: #3a3a3a;
+  --white: #fff;
+  --green: #49b293;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px
+}
+
+ol {
+  list-style: none;
+}
+
+.author-archive {
+  padding-bottom: 20vh;
 }
 
 .container {
-
-    width:400vw;
-    position:relative;
-    -webkit-animation: drift 30s linear infinite both;
-    -moz-animation:drift 30s linear infinite both;
-    -ms-animation:drift 30s linear infinite both;
-    -o-animation:drift 30s linear infinite both;
-    animation:drift 30s linear infinite both;
-    
+  max-width: 90vw;
+  margin: 0 auto;
 }
 
-img {
-    border-radius: 6px
-}
-
-.container section {
-    width:60vw;
-    float:left;
-}
-
-.container section:nth-child(1) 
-.container section:nth-child(2) 
-.container section:nth-child(3) 
-.container section:nth-child(4)
-.container section:nth-child(5)
-
-
-@-webkit-keyframes drift {
-    0% {left:0vw;}
-    100% {left:-240vw;}
-}
-}
-@-moz-keyframes drift {
-    0% {left:0vw;}
-    100% {left:-240vw;}
-}
-@-ms-keyframes drift {
-    0% {left:0vw;}
-    100% {left:-240vw;}
-}
-@-o-keyframes drift {
-    0% {left:0vw;}
-    100% {left:-240vw;}
-}
-@keyframes drift {
-    0% {left:0vw;}
-    100% {left:-240vw;}
+input[type="radio"] {
+  position: absolute;
+  left: -9999px;
 }
 
 
-img {
-    display: block;
-    width: 95%;
-    height: auto
+/* FILTERS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.filters {
+  text-align: center;
+  margin-bottom: 2rem;
 }
+
+.filters * {
+  display: inline-block;
+}
+
+.filters label {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.25rem;
+  border-radius: 2rem;
+  min-width: 50px;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.filters label:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
+.textlabel {
+  font-family:'Fraunces', serif;
+  font-weight: 300;
+  letter-spacing:.1px;
+  font-size: 38px;
+  color: #F7B267;
+  -webkit-transition:color .1s ease-in-out;
+    -moz-transition:color .1s ease-in-out;
+    -ms-transition:color .1s ease-in-out;
+    -o-transition:color .1s ease-in-out;
+    transition:color .1s ease-in-out
+}
+
+.textlabel:hover {
+  cursor: pointer;
+  color:#EFEFEF
+}
+
+
+/* FILTERED ELEMENTS (POSTS)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.posts {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*
+.posts .post {
+  background: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.posts .post-title {
+  font-size: 1.3rem;
+}
+
+.posts .post-title:hover {
+  text-decoration: underline;
+}
+
+.posts figcaption {
+  padding: 1rem;
+}
+
+.posts .post-categories {
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.posts .post-categories * {
+  display: inline-block;
+}
+
+.posts .post-categories li {
+  margin-bottom: 0.2rem;
+}
+
+.posts .post-categories a {
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid;
+  line-height: normal;
+  transition: all 0.1s;
+}
+
+.posts .post-categories a:hover {
+  background: var(--green);
+  color: var(--white);
+}
+*/
+
+
+/* FILTERING RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+[value="All"]:checked ~ .filters [for="All"],
+[value="web"]:checked ~ .filters [for="web"],
+[value="photography"]:checked ~ .filters [for="photography"],
+[value="bonsai"]:checked ~ .filters [for="bonsai"],
+[value="WordPress"]:checked ~ .filters [for="WordPress"],
+[value="Slider"]:checked ~ .filters [for="Slider"],
+[value="fullPage.js"]:checked ~ .filters [for="fullPage.js"] {
+  background: var(--green);
+  color: var(--white);
+}
+
+[value="All"]:checked ~ .posts [data-category] {
+  display: block;
+}
+
+[value="web"]:checked ~ .posts .post:not([data-category~="web"]),
+[value="photography"]:checked ~ .posts .post:not([data-category~="photography"]),
+[value="bonsai"]:checked ~ .posts .post:not([data-category~="bonsai"]),
+[value="WordPress"]:checked ~ .posts .post:not([data-category~="WordPress"]),
+[value="Slider"]:checked ~ .posts .post:not([data-category~="Slider"]),
+[value="fullPage.js"]:checked ~ .posts .post:not([data-category~="fullPage.js"]) {
+  display: none;
+}
+
+
+/* MQ
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 900px) {
+  .posts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 14px;
+  }
+
+  .posts {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 
 /*  MOBILE  */
 
