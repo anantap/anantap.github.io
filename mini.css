@@ -81,13 +81,13 @@ body {
 }
 
 .bottombuttons {
-    padding: 16px 24px;
-    border-radius: 12px;
+    padding: 12px 18px;
+    border-radius: 8px;
     background-color:#0A0908;
-    border:solid .5px white;
+    border:solid .5px #666;
     font-family:'DM Sans',sans-serif;
     font-size: 18px;
-    font-weight:700;
+    font-weight:400;
     text-decoration:none;
     color:#EFEFEF;
 }
@@ -178,8 +178,8 @@ input[type="radio"] {
   letter-spacing:.1px;
   font-size: 36px;
   color: #EFEFEF;
-  border: 0.5px solid white;
-  padding: 6px 12px 8px 12px;
+  border: 0.5px solid #666;
+  padding: 6px 12px 10px 12px;
   border-radius: 12px;
   -webkit-transition:color .1s ease-in-out;
     -moz-transition:color .1s ease-in-out;
@@ -189,9 +189,9 @@ input[type="radio"] {
 }
 
 .textlabel:hover {
-  background-color:#EFEFEF;
+  background-color:#666;
     cursor:pointer;
-    color:#0A0908
+    color:#EFEFEF
 }
 
 
@@ -241,13 +241,13 @@ input[type="radio"] {
     
 .text {
     font-size:18px;
-    padding:5vh 5vw 5vh 5vw;
+    padding:0vh 5vw 5vh 5vw;
     width: 90vw
 } 
 
 .textlabel, .textlink, .bottombuttons {
      font-size: 16px;
-    border-radius: 8px;
+    border-radius: 6px;
     }
     
 .textlabel {
@@ -263,9 +263,6 @@ font-size:12px;
     color:#C0AFA0
 }
     
-.lilboy {
-    padding:5vh 0vw 5vh 5vw
-}
     
 
 }
