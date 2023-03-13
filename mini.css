@@ -52,7 +52,7 @@ body {
     font-family:'DM Sans',sans-serif;
     font-weight:400;
     color:#EFEFEF;
-    padding:5vh 5vw 10vh 5vw;
+    padding:0vh 5vw 10vh 5vw;
     width: 90vw
 }
 
@@ -61,6 +61,21 @@ body {
     width: 90vw
 }
 
+
+a {
+    text-decoration: none;
+    color: #EFEFEF
+    -webkit-transition:color .1s ease-in-out;
+    -moz-transition:color .1s ease-in-out;
+    -ms-transition:color .1s ease-in-out;
+    -o-transition:color .1s ease-in-out;
+    transition:color .1s ease-in-out
+}
+
+a:hover {
+    cursor:pointer;
+    color:#C0AFA0
+}
 
 .textlink {
     font-family:'Fraunces', serif;
@@ -145,6 +160,7 @@ input[type="radio"] {
 
 .textlabel {
   font-family:'Fraunces', serif;
+    text-decoration: none;
   font-weight: 300;
   letter-spacing:.1px;
   font-size: 36px;
@@ -225,12 +241,12 @@ input[type="radio"] {
         border-radius: 6px;
     }
     
-.smol{
+a, .smol{
         font-size:12px;
     }
     
 .topbuttons {
-    font-size:12px;
+    font-size:12px !important;
     letter-spacing:.05em;
     font-family:'DM Sans',sans-serif;
     font-weight:400;
