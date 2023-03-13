@@ -228,8 +228,18 @@ input[type="radio"] {
         padding: 4px 8px 6px 8px;
     }
     
-.smol, .topbuttons {
-font-size:12px
+.smol{
+        font-size:12px;
+    }
+    
+.topbuttons {
+    font-size:12px;
+    letter-spacing:.05em;
+    font-family:'DM Sans',sans-serif;
+    font-weight:400;
+    color:#EFEFEF;
+    text-decoration: none;
+    padding-left: 5vw
 }
       
 
