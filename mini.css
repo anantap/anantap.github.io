@@ -64,7 +64,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #EFEFEF
+    color: #EFEFEF;
     -webkit-transition:color .1s ease-in-out;
     -moz-transition:color .1s ease-in-out;
     -ms-transition:color .1s ease-in-out;
@@ -73,7 +73,6 @@ a {
 }
 
 a:hover {
-    cursor:pointer;
     color:#C0AFA0
 }
 
@@ -107,7 +106,6 @@ a:hover {
 }
 
 .topbuttons:hover {
-    cursor:pointer;
     color:#C0AFA0
 }
 
@@ -229,7 +227,7 @@ input[type="radio"] {
 .text {
     font-size:18px;
     padding:0vh 5vw 5vh 5vw;
-    width: 90vw
+    width: 90vw;
 } 
 
 .textlabel, .textlink {
